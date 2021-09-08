@@ -1,5 +1,10 @@
 import React from "react";
+import { Clock } from "../../Clock";
 
 export const Services = () => {
-  return <div>Services</div>;
+  return (
+    <div>
+      <Clock />
+    </div>
+  );
 };

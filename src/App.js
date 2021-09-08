@@ -25,41 +25,18 @@ import {Course} from "./Components/Course";
 // import {Services} from "./Components/Routes/Pages/Services";
 // import {BrowserRouter as Router, Switch, Route } from "react-router-dom"
 // import {Help} from "./Components/Routes/Pages/Help";
-// import { Login } from './Components/Login';
+import { Login } from './Components/Login';
 // import {Clock} from "./Components/Clock";
+import {Routing} from "./Components/Routes/Pages/Routing"
 
 function App() {
   return ( 
+    <Routing/>
     // <Counter2/>
     // <DynamicComp/>
     // <Clock />
     // <Login/>
-    // <Router>
-    // <NavigationBar/>
-    // <Switch>
-    // <div>
-    //   <Route path="/Home">
-    // <Home/>
-    // </Route>
-    // <Route path="/Courses">
-    // <Courses/>
-    // </Route>
-    // <Route path="/AboutUs">
-    // <AboutUs/>
-    // </Route>
-    // <Route path="/ContactUs">
-    // <ContactUs/>
-    // </Route>
-    // <Route path="/Services">
-    // <Services/>
-    // </Route>
-    // <Route path="/Help">
-    //   <Help/>
-    // </Route>
-    // </div>
-    // </Switch>
-    // </Router>
-
+    // 
     // <ToggleComps/>
   // <RowCol/>,
   // <Emicalc />
@@ -70,7 +47,7 @@ function App() {
   // <Employeeinfo/>,
   // <NewEmployee/>
   // <Counter/>
-  <Course/>
+  // <Course/>
   // <ScientificCal />
 
   )

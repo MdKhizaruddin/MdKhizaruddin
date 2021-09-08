@@ -9,7 +9,7 @@ export const Help = () => {
   const history = useHistory();
   useEffect(() => {
     if (!(userData.token == localStorage.getItem("token"))) {
-      history.push("/");
+      // history.push("/");
     }
   }, []);
   return (

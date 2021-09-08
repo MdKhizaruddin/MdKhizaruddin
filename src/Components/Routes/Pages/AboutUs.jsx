@@ -6,11 +6,11 @@ import { userData } from "../../config";
 import { ToggleComps } from "../../ToogleComps";
 
 export const AboutUs = () => {
-  const history = useHistory();
-  useEffect(() => {
-    if (!(userData.token == localStorage.getItem("token"))) {
-      history.push("/");
-    }
-  }, []);
+  // const history = useHistory();
+  // useEffect(() => {
+  //   if (!(userData.token == localStorage.getItem("token"))) {
+  //     history.push("/");
+  //   }
+  // }, []);
   return <div>{<ToggleComps />}</div>;
 };
