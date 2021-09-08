@@ -1,0 +1,13 @@
+.dyncomp {
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(105deg, rgb(139, 101, 101), rgb(151, 223, 183));
+  margin-top: 20px;
+  width: 500px;
+  align-items: center;
+  box-shadow: 5px 5px 10px 5px rgb(57, 34, 143);
+  /* border-bottom-left-radius: 60px !important;
+  border-top-right-radius: 60px !important; */
+  border-radius: 60px !important;
+  /* box-shadow: 10px red; */
+}

@@ -1,0 +1,15 @@
+.row{
+    margin: 20px;
+    padding: 200px;
+    background-color: aqua !important;
+    
+}
+.counter{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    background-color: cadetblue;
+    height: 100px;
+    width: 1500px;
+}

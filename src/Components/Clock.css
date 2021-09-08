@@ -1,0 +1,15 @@
+.clock {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(180, 57, 57) !important;
+  text-align: center;
+  background: linear-gradient(45deg, red, rgb(27, 17, 17), green);
+  width: 500px;
+  height: 300px;
+}
+.clock span {
+  color: chartreuse;
+  font-size: 50px;
+  padding: 30px;
+  margin: 30px;
+}
