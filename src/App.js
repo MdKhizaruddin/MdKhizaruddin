@@ -4,7 +4,7 @@ import './App.css';
 // import { Counter2 } from './Components/Counter2';
 // import { DynamicComp } from './Components/DynamicComp';
 // import { SetNForm } from './Components/NForm';
-import {Course} from "./Components/Course";
+// import {Course} from "./Components/Course";
 // import {Counter} from "./Components/Counter";
 // import {Table} from "./Components/Table";
 // import {Employeeinfo} from "./Components/Employeeinfo";
@@ -12,7 +12,7 @@ import {Course} from "./Components/Course";
 // import {NForm} from "./Components/NForm";
 // import { RowCol } from './Components/RowCol';
 // import {ToggleComps} from "./Components/ToogleComps";
-// import {Emicalc} from "./Components/Emicalc";
+import {Emicalc} from "./Components/Emicalc";
 // import {Piano} from "./Components/Piano";
 // import {AudioPlayer} from "./Components/AudioPlayer";
 // import {ParentPiano} from "./Components/ParentPiano";
@@ -25,13 +25,13 @@ import {Course} from "./Components/Course";
 // import {Services} from "./Components/Routes/Pages/Services";
 // import {BrowserRouter as Router, Switch, Route } from "react-router-dom"
 // import {Help} from "./Components/Routes/Pages/Help";
-import { Login } from './Components/Login';
+// import { Login } from './Components/Login';
 // import {Clock} from "./Components/Clock";
-import {Routing} from "./Components/Routes/Pages/Routing"
+// import {Routing} from "./Components/Routes/Pages/Routing"
 
 function App() {
   return ( 
-    <Routing/>
+    // <Routing/>
     // <Counter2/>
     // <DynamicComp/>
     // <Clock />
@@ -39,7 +39,7 @@ function App() {
     // 
     // <ToggleComps/>
   // <RowCol/>,
-  // <Emicalc />
+  <Emicalc />
   // <Piano />
   // <AudioPlayer />
   // <ParentPiano />
